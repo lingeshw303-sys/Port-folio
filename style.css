@@ -626,6 +626,22 @@ body {
   box-shadow: 0 0 20px rgba(59,130,246,0.5);
   transform: translateY(-3px);
 }
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.about-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+
 
 
 
