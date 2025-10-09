@@ -55,11 +55,7 @@ body {
 }
 
 /* Buttons */
-.hero-buttons {
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-}
+
 
 .btn {
   background: #3b82f6;
@@ -613,6 +609,7 @@ body {
     font-size: 1rem;
   }
 }
+
 
 
 
