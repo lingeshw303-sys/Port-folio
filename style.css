@@ -609,6 +609,24 @@ body {
     font-size: 1rem;
   }
 }
+.resume-btn {
+  background: transparent;
+  border: 2px solid #3b82f6;
+  color: #3b82f6;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.resume-btn:hover {
+  background: #3b82f6;
+  color: #fff;
+  box-shadow: 0 4px 15px rgba(59, 130, 246, 0.5);
+  transform: translateY(-2px);
+}
+
 
 
 
