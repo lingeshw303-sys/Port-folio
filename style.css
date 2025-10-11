@@ -458,44 +458,6 @@ html, body {
   line-height: 1.6;
 }
 
-/* Responsive */
-@media (max-width: 900px) {
-  .about-container {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .about-img {
-    width: 220px;
-    height: 220px;
-  }
-
-  .about-content h2::after {
-    left: 50%;
-    transform: translateX(-50%);
-  }
-
-  .about-skills {
-    justify-content: center;
-  }
-}
-
-@media (max-width: 768px) {
-  .skills-intro,
-  .projects-intro,
-  .testimonials-intro {
-    font-size: 1rem;
-    margin-bottom: 30px;
-  }
-
-  .cta h2 {
-    font-size: 1.8rem;
-  }
-
-  .cta p {
-    font-size: 1rem;
-  }
-}
 
 
 
