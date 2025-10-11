@@ -662,6 +662,28 @@ body {
 .navbar {
   position: relative;
 }
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  position: relative;
+}
+
+/* This centers the nav links */
+.nav-links {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.header {
+  text-align: center;
+}
+
+
 
 
 
