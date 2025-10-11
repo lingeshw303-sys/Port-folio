@@ -682,6 +682,22 @@ body {
 .header {
   text-align: center;
 }
+/* Remove extra space at the top */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Optional: adjust header padding */
+.header {
+  margin-top: 0;
+  padding-top: 0;
+}
+.navbar {
+  padding: 10px 40px; /* you can adjust these numbers */
+}
+
+
 
 
 
