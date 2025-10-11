@@ -457,6 +457,16 @@ html, body {
   margin-bottom: 30px;
   line-height: 1.6;
 }
+.contact-top {
+  text-align: center;  /* centers inline elements inside the div */
+}
+.navbar {
+  display: flex;
+  justify-content: center; /* centers items horizontally */
+  align-items: center;     /* centers items vertically */
+  gap: 20px;               /* optional spacing between items */
+}
+
 
 
 
