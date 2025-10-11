@@ -682,6 +682,60 @@ body {
 .header {
   text-align: center;
 }
+/* About Section Layout */
+.about {
+  padding: 80px 40px;
+  background-color: #0f172a; /* dark background */
+  color: #fff;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* moves content to left */
+  gap: 40px;
+}
+
+.about-content {
+  max-width: 600px;
+  text-align: left; /* aligns text to left side */
+}
+
+.about-content h2 {
+  font-size: 28px;
+  color: #3b82f6;
+  margin-bottom: 15px;
+}
+
+.about-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.about-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-btn {
+  background: transparent;
+  border: 2px solid #3b82f6;
+  color: #3b82f6;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: default;
+}
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+
+
 
 
 
