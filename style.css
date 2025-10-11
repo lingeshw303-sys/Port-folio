@@ -457,6 +457,17 @@ html, body {
   margin-bottom: 30px;
   line-height: 1.6;
 }
+<style>
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Optional: full viewport height */
+    }
+</style>
+<div class="container">
+    <h1>MyPortfolio</h1>
+</div>
 
 
 
