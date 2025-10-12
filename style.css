@@ -463,11 +463,12 @@ html, body {
 }
 
 .welcome-text {
-  font-size: 3.5rem;        /* Big text */
-  font-weight: 800;
+  font-size: 5rem;         /* Bigger size (previously 3.5rem) */
+  font-weight: 900;        /* Extra bold */
   color: #3b82f6;
-  text-shadow: 0 0 15px rgba(59, 130, 246, 0.6);
+  text-shadow: 0 0 25px rgba(59, 130, 246, 0.7);
 }
+
 
 
 
