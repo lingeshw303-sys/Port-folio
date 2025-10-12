@@ -450,6 +450,23 @@ html, body {
   font-size: 2.4rem;
   margin-bottom: 20px;
 }
+/* Hero Section */
+.hero {
+  height: 100vh; /* Full screen height */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;     /* Center vertically */
+  background: linear-gradient(135deg, #0d1117, #1e293b);
+  text-align: center;
+}
+
+.welcome-text {
+  font-size: 4rem;         /* Big text size */
+  font-weight: 800;
+  color: #3b82f6;          /* Nice blue color */
+  text-shadow: 0 0 20px rgba(59, 130, 246, 0.5); /* Glow effect */
+}
+
 
 
 
