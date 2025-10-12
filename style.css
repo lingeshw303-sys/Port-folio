@@ -450,22 +450,24 @@ html, body {
   font-size: 2.4rem;
   margin-bottom: 20px;
 }
-/* Hero Section */
-.hero {
-  height: 100vh; /* Full screen height */
+/* Hero Section - Top Center */
+.hero-top {
   display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center;     /* Center vertically */
+  justify-content: center;  /* Center horizontally */
+  align-items: flex-start;  /* Position near top */
+  height: 40vh;             /* Smaller height so it stays at top */
   background: linear-gradient(135deg, #0d1117, #1e293b);
   text-align: center;
+  padding-top: 100px;       /* Push down below navbar */
 }
 
 .welcome-text {
-  font-size: 4rem;         /* Big text size */
+  font-size: 3.5rem;        /* Big font */
   font-weight: 800;
-  color: #3b82f6;          /* Nice blue color */
-  text-shadow: 0 0 20px rgba(59, 130, 246, 0.5); /* Glow effect */
+  color: #3b82f6;
+  text-shadow: 0 0 15px rgba(59, 130, 246, 0.6);
 }
+
 
 
 
